@@ -1,0 +1,5 @@
+I decided to use the ArrayOrderedList data structure to hold the User information within the database because:
+  1) It orders all the Users in the database using their gender, date of birth, and username respectively
+  2) It implements the binary search algorithm for searching within itself, which allows for faster lookups
+  3) Due to being implemented with an array, traversing through the list is an easy task to accomplish
+  4) This data structure is unbounded and dynamically increases its size when needed, this attribute is needed for a database that will be continually growing
