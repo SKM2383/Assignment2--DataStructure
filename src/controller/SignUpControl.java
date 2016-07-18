@@ -107,8 +107,6 @@ public class SignUpControl {
             // After checking all the fields, we can now add the user to the database
             UserStorage.getUserDatabase().add(newUser);
             UserIO.writeUsers(UserStorage.getUserDatabase());
-
-            System.out.println(UserStorage.getUserDatabase());
         }
         catch(DuplicateElementException de){
             lblSignUpStatus.setText("User is already in the database");
